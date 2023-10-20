@@ -3,9 +3,12 @@ package com.cg.service;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.springframework.stereotype.Service;
+
 import com.cg.dao.SupplierDao;
 import com.cg.entity.Supplier;
 
+@Service
 public class SupplierService implements SupplierDao {
 	
 List<Supplier> supplierList=new ArrayList<>();

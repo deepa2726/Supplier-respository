@@ -25,7 +25,7 @@ import com.cg.service.SupplierService;
 
 	
 		@GetMapping("/")
-		public List<Supplier> getAll(@RequestParam("id") int id){
+		public List<Supplier> getAll(){
 			return service.getSupplierList();
 		}
 }
