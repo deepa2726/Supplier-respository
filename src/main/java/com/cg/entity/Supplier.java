@@ -1,7 +1,10 @@
 package com.cg.entity;
 
+import org.springframework.data.annotation.Id;
+
+
 public class Supplier {
-	
+@Id
 	private String sname;
 	private int sid;
 	private String location;
